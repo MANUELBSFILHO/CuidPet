@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.ico" type="logo.ico">
     <title>Cuidados com o Pet</title>
 </head>
 <body>
     <div class="container">
+    <header>
+    <img src="img/logo.png" alt="logo.png"style="width: 80px;">
+    </header>
         <h1>Cuidados com o Pet</h1>
         <form id="petCareForm">
             <label for="petName">Nome do Pet:</label>
             <input type="text" id="petName" required>
-
             <label for="feeding">Alimentação:</label>
             <input type="text" id="feeding" required>
-
             <label for="exercise">Exercício:</label>
             <input type="text" id="exercise" required>
-
             <label for="healthcare">Cuidados de Saúde:</label>
             <input type="text" id="healthcare" required>
-
             <button type="button" onclick="addPetCare()">Adicionar Cuidado</button>
             <button type="button" onclick="clearForm()">Limpar</button>
             <button type="button" onclick="addNewCare()">Novo Cuidado</button>
         </form>
 
-        <div id="petCareList">
+    <div id="petCareList">
             <!-- Lista de cuidados com os pets será exibida aqui -->
-        </div>
-
-        <button type="button" onclick="printPage()">Imprimir Relatório</button>
+    </div>
+    <button type="button" onclick="printPage()">Imprimir Relatório</button>
     </div>
 
     <script src="script.js"></script>

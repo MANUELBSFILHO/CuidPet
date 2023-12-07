@@ -10,7 +10,7 @@ body {
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,7 +26,7 @@ input {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #070707;
     color: #fff;
     padding: 10px;
     border: none;
